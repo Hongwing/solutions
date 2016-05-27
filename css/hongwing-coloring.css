@@ -1,0 +1,48 @@
+    
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 100px;
+      border-bottom: 1px solid blue;
+    }
+
+    .container {
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    p {
+      font-size: 16px;
+      box-sizing: border-box;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 6px;
+      padding-right: 6px;
+      border-top: 5px solid;
+      border-bottom: 2px solid;
+      border-color: purple;
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+
+    body {
+      background-color: #bcbcbc;
+    }
+
+    footer {
+      margin-top: 100px;
+      border-top: 1px solid blue;
+    }
+
+    .linear-gradient {
+      /**
+      * 兼容性代码
+      */
+      /** webkit core */
+      background: -webkit-linear-gradient(top,#ECF0F1,#BDC3C7,#2ECC71,#27AE60,#1ABC9C,#16A085,#3498DB,#2980B9,#9B59B6,#8E44AD,#E67E22,#D35400);
+      /** Opera core */
+      background: -o-linear-gradient(top,red,orange,yellow,green,blue,indigo,violet);
+      /** Firefox core */
+      background: -moz-linear-gradient(top,red,orange,yellow,green,blue,indigo,violet);
+      
+    }
