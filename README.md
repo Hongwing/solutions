@@ -1,5 +1,5 @@
 # Solutions to Coursera
-
+## Module 2
 <------Un Do ------>
 ### * 1.Responsive Design :the implimentation fo the page should follow the mockup illustrations. 3 mockups provided is desktop, tablet, and mobile. The implementation has to be JUST 1 page, NOT 3 pages.(Single Responsive page)
 ### * 2.(No framework CSS files could even be referenced in my index.html.)USE Simple Responsive Framwork I developed in lecture "I LOVE YOU http://hongwing.github.io/lister/study/response-design.html"
@@ -28,3 +28,8 @@
 ### 1. Create a GitHub Repository for my assignment.
 ### 2. Create a folder in my repository that will serve as a container folder for my solution to coursera assignment.e.g. "./solutions"
 ### 3. Create a 'css' folder under the solution container folder."e.g. ./solutions/css"
+
+# ===================================
+# ===================================
+# ===================================
+# Module3 Solution

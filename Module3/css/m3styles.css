@@ -1,0 +1,82 @@
+/** body **/
+body {
+	font-size: 16px;
+	font-family: 'Lora', serif;
+}
+
+#header-nav {
+	background-color: grey;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar-brand div {
+	color: orange;
+	font-size: 32px;
+}
+
+#nav-list li:hover {
+	border: 2px solid black;
+}
+
+li.visible-xs div {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+}
+
+/** End of Header */
+
+.col-md-4 section {
+	position: relative;
+	margin-top: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	background-color: grey;
+}
+
+.row > section {
+	// background-color: blue;
+}
+
+#menu-title {
+ 	// border: 2px solid red;
+	// position: absolute;
+	// top: 0;
+	// right: 0;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+#menu-detail {
+	padding-top: 5px;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+.navbar-default .navbar-toggle {
+	border: 2px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar  {
+	background-color: orange;
+}
+
+/*** Media Query **/
+@media (min-width: 1200px) {
+	
+}
+
+
+/*
+div {
+	font-family: 'Overlock SC', cursive;
+	color: red;
+}*/
