@@ -20,8 +20,11 @@ body {
 	font-size: 32px;
 }
 
-#nav-list li:hover {
-	border: 2px solid black;
+.navbar-default .navbar-nav>li>a {
+	color: orange;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: black;
 }
 
 li.visible-xs div {
@@ -41,15 +44,19 @@ li.visible-xs div {
 	background-color: grey;
 }
 
-.row > section {
-	// background-color: blue;
+.row section {
+	font-family: 'Overlock SC', cursive;
 }
 
-#menu-title {
- 	// border: 2px solid red;
-	// position: absolute;
-	// top: 0;
-	// right: 0;
+p a {
+	color: orange;
+}
+
+p a:hover {
+	color: black;
+}
+
+.menu-title {
 	text-align: center;
 	padding-top: 5px;
 	margin-bottom: 10px;
@@ -70,13 +77,6 @@ li.visible-xs div {
 }
 
 /*** Media Query **/
-@media (min-width: 1200px) {
-	
+@media (max-width: 767px) {
+
 }
-
-
-/*
-div {
-	font-family: 'Overlock SC', cursive;
-	color: red;
-}*/
