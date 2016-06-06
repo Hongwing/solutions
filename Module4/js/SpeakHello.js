@@ -1,7 +1,7 @@
 /**
 * IIFE
 */
-(function speak (window,name) {
+(function speak (window) {
 	var helloSpeaker = {};
 
 	var speakWord = "Hello ";
@@ -10,4 +10,4 @@
 }
 
 	window.helloSpeaker = helloSpeaker;
-})(window,name);
+})(window);

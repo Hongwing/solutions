@@ -61,10 +61,10 @@ for (var i = 0; i < names.length; i++) {
   if (str.charAt(0).toLowerCase() === 'j') {
 
     byeSpeaker.speak(str);
-  
+
   } else {
 
     helloSpeaker.speak(str);
- 
+
   }
 }
